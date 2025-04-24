@@ -1,7 +1,7 @@
 # test-repo01
 Web system test repository
 
-# edit this file
+# eDIT tHiS FIlE
 
 ```c++
 int main(){
@@ -15,9 +15,9 @@ int main(){
 
 |fff|aaa|
 |---|---|
-|ringo|gorira|
+|ringo|onigiri|
 
 
 $$
-\frac{1}{e}
+\frac{\pi}{e}
 $$
