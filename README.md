@@ -16,3 +16,8 @@ int main(){
 |fff|aaa|
 |---|---|
 |ringo|gorira|
+
+
+$$
+\frac{1}{e}
+$$
