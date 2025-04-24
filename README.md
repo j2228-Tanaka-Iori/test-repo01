@@ -13,6 +13,7 @@ int main(){
 }
 ```
 
+
 |fff|aaa|
 |---|---|
 |ringo|onigiri|
@@ -21,3 +22,25 @@ int main(){
 $$
 \frac{\pi}{e}
 $$
+
+# Union find
+```c++
+
+struct dsu{
+  int n;
+  vector<int>par;
+  int leader(int u){
+    if(par[u]==-1)return u;
+    else par[u]=leader(par[u]);
+  }
+  bool merge(int u,int v){
+    u=leader(u), v=leader(v);
+    if(u==v)return false;
+    par[u]=v;
+    return true;
+  }
+  bool same(int u,int v){
+    return leader(u)==leader(v);
+  }
+}
+```
