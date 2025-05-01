@@ -1,6 +1,7 @@
 # test-repo01
 Web system test repository
 
+# テスト用のファイル
 # eDIT tHiS FIlE
 
 ```c++
@@ -25,7 +26,6 @@ $$
 
 # Union find
 ```c++
-
 struct dsu{
   int n;
   vector<int>par;
@@ -43,4 +43,17 @@ struct dsu{
     return leader(u)==leader(v);
   }
 }
+```
+
+# functional graph
+
+```c++
+struct Graph{
+  int n_;
+  vector<vector<int>>G;
+  Graph(){}
+  Graph(int n):n(n){
+    G.resize(n);
+  }
+};
 ```
